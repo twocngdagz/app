@@ -1,0 +1,90 @@
+.form { 
+	width:600px;
+	
+	font-family:verdana;
+	margin:5% auto;
+	color: #000;
+
+	padding:20px;
+
+	background-repeat:no-repeat;
+	background-position: top right;
+
+
+	opacity:.9;
+	filter:alpha(opacity=90);
+}
+.form a {
+
+font-size:12px;
+}
+.form fieldset {
+  	border:none;
+	
+}   
+.form #legend {
+	font-size:18px;
+	margin:0px;
+	padding:10px 0px;
+	color:#0058a9; 
+	font-weight:bold;
+}
+.form legend {
+	font-size:18px;
+	margin:0px;
+	padding:10px 0px;
+	color:#0058a9; 
+	font-weight:bold;
+}
+.form label {
+	margin-left:5px;
+	font-size:12px;
+	width: 150px;
+	display:block;
+	
+}
+.form input { 
+	width:300px;
+	border-radius: 5px;
+
+}
+.form .prev, .form .next, .form .finish { 
+	position:relative;
+	bottom: 2px;
+	background-color:#0058a9;
+	padding:5px 10px;
+	color:#fff;
+	text-decoration:none;
+}
+.form .prev:hover, .form .next:hover,.form .finish:hover {
+	cursor:pointer;
+	background-color:#000;
+	text-decoration:none;
+}
+.form .prev { 
+	float:left;
+}
+.form .next, .form .finish { 
+	float:right;
+}
+
+.form .footer {
+	position:relative;
+	
+	border-top:2px solid #aaa;list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px	
+}
+.form .header {
+	height: 60px;
+	top: 200%;
+}
+#steps, .form .header { border-bottom:2px solid #aaa;list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px;}
+#steps li {font-size:15px; float:left; padding:10px; color:#b0b1b3;}
+#steps li span {font-size:11px; display:block;}
+#steps li.current { color:#000;}
+.form .error{ 
+	font-size:10px;
+	font-style: italic;
+	color: #B16643;	
+	
+}
+

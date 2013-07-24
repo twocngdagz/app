@@ -1,0 +1,72 @@
+.box{
+  font-size: 12px;
+  padding:0.2em .2em;
+  margin:0em;
+  font-family: Tahoma;
+  cursor:default;
+  border:1px solid #000040;
+  border-radius: 12px;
+  box-shadow: 2px -5px 10px gray inset;
+  background: #E6EDD7;
+  color:#000040;
+}
+.box img {
+	border-radius:35px;
+	width: 35px;
+	height: 35px;
+}
+.box:hover{
+  background:white;
+  cursor:pointer;
+}
+.boxCheckedHover {
+  border-color: #4040A0;
+  color: #4040A0;
+  background:white;
+}
+.boxChecked {
+  background: #F8F8FC; 
+  border-color: #4040A0;
+  color: #4040A0;
+}
+.boxc {
+  padding:0em 0.3em;
+  
+}
+.boxc TABLE {
+  margin:auto;
+}
+.lineright {
+  border-right:1px solid #000040;
+  font-size:50%;
+}
+.leftabove {
+  border-right:1px solid #000040;
+  border-top:1px solid #000040;
+  font-size:50%;
+}
+.rightabove {
+  border-top:1px solid #000040;
+  font-size:50%;
+}
+.nolines {
+  font-size:50%;
+}
+TD#chart {
+  padding:1em;
+}
+DIV.message {
+  color:#4040A0;
+  font-weight:bold;
+  background-color:#F8F8FC;
+  border:1px solid #4040A0;
+  margin:1em 0em;
+  padding:0em 0.5em;
+}
+DIV.somespace {
+  padding:0.2em;
+  text-align:center;
+}
+DIV.somespace TABLE {
+  margin:auto;
+}

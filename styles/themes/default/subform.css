@@ -1,0 +1,123 @@
+
+.subform {
+	font-family:verdana;
+	height:520px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	padding:5px;
+}
+.subform .formbutton {
+	margin:1px;
+	padding:1px;
+	border:1px solid;
+	background:#fff;
+	font-size:9px;
+	color:#333;
+	cursor:pointer;
+}
+.subform fieldset {
+	border:none;
+	width:320px;
+}
+
+.subform legend, legend1{
+	font-size:14px;
+	margin:0px;
+	padding:10px 0px;
+	color:#fff;
+	font-weight:bold;
+}
+.subform label {
+	margin-left:5px;
+	font-size:12px;
+	width:100px;
+	display:block;
+}
+.subform a {
+	font-size:12px;
+	
+}
+.subform input, .subform option, .subform select {
+	width:300px;
+	border-radius:5px;
+}
+.subform .prev,.subform .next,.subform .finish {
+	position:relative;
+	background-color:#b0232a;
+	padding:5px 10px;
+	color:#fff;
+	text-decoration:none;
+}
+.subform .prev:hover,.subform .next:hover,.subform .finish:hover {
+	cursor:pointer;
+	background-color:#000;
+	text-decoration:none;
+}
+.subform .prev {
+	float:left;
+}
+.subform .next,.subform .finish {
+	float:right;
+}
+#steps {
+	border-bottom:2px solid #aaa;
+	list-style:none;
+	width:80%;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+#steps li {
+	font-size:24px;
+	float:left;
+	padding:10px;
+	color:#b0b1b3;
+}
+#steps li span {
+	font-size:11px;
+	display:block;
+}
+#steps li.current {
+	color:#000;
+}
+.subform .error {
+	font-size:10px;
+	font-style:italic;
+	color:#B16643;
+	width:220px;
+}
+
+
+.clear {
+	clear:both
+}
+
+
+#short_explanation {
+	font-family:Arial,sans-serif;
+	font-size:0.6em;
+	color:#333;
+	border-left:3px solid brown;
+	margin:10px;
+	padding-left:10px;
+}
+
+.hideacc {
+	display:none
+}
+.showacc {
+	display:inline;
+	font-size:13px;
+}
+.hideloc {
+	display:none
+}
+.showloc {
+	display:inline
+}
+fieldset legend {
+	font-weight:bold
+}
+fieldset {
+	border-radius:10px;
+}

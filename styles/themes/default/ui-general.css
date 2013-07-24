@@ -1,0 +1,246 @@
+/*	Wisani System
+	Developer Version
+	Sherwin Vizcara
+	8/3/2012
+*/
+
+/* General Layout */
+* {
+	font-family: Tahoma;	
+}
+html {
+	font-family:Tahoma;	
+	background: url(images/bg.jpg);
+	background-size:cover;
+}  
+body {
+
+    margin: 0;
+	font-size:11px;
+}
+
+#leftnav {
+	background:#eee;
+	position:relative;
+	width:220px;
+	height:100%;
+	opacity:.9;
+	clear:both;
+	
+	padding:10px;
+	margin: 5px;
+	float:left;
+	width:220px;
+	font-size:12px;
+	min-height:551px;
+   	border:1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+	max-height:540px;
+}
+#contentlayout { 
+	color: #000;
+	top:0;
+	clear:both;
+	background: #eee;
+	position:absolute;
+	
+	left:220px;
+	clear:both;
+	padding:10px 10px 0px 10px; 	
+	
+	margin-left: 30px;
+	max-height:560px;
+	top:90px;
+	min-height:560px;
+	max-width:79%;
+  	min-width:79%
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+#pagetitle {
+	padding: 5px 5px 10px 10px;
+	font-size:24px;
+	color:#309;
+	font-weight:bolder;
+	border-bottom:#003333 solid 2px;
+		
+}
+
+
+
+#short_explanation {
+	margin:8px;
+	font-family:Arial,sans-serif;
+	font-decoration: italized;
+	font-size:0.9em;
+	font-weight: bold;
+	color:#333;
+	border-left:2px solid brown;
+	margin-bottom: 10px;
+}
+
+.dsslink {
+	text-decoration:none;
+	font-style:normal;
+	color: #000;	
+	font-weight: bold;
+	cursor:pointer;
+}
+.dsslink1 {
+	text-decoration:none;
+	font-style:normal;
+	padding:10px;
+	color: #fff;
+	min-width:200px;	
+	font-weight: bold;
+	cursor:pointer;
+}
+
+.dsslink1:hover {
+	
+	text-decoration: underline;
+}
+
+.dsslink-active {
+	text-decoration:none;
+	font-style:normal;
+	min-width:200px;
+	color: #Fff;	
+	font-weight: bold;
+	cursor:pointer;
+	background:#00CC66;	
+	padding:10px;
+}
+.dsslink:hover {
+	text-decoration: underline;
+}
+
+#powered {
+	position:absolute;
+	bottom:0%;
+	right:0px;
+	font-weight:bold;
+	font-style: italized;
+	background: #FFF1D6;
+	font-size:12px;
+   	opacity:.3;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	padding:2px;
+}
+/* Menu Layout */
+ul.topright {
+	float:right;
+	list-style: none;
+	padding: 0 20px;
+	margin: 0;
+	font-size: 13px;
+	font-weight: bold;
+}
+ul.topright li {
+	float: left;
+	margin: 0;
+	padding: 0 10px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topright li a:hover{
+	box-shadow: 0 1px 0 0 #C6D1DE;
+}
+ul.topright li a{
+	padding-top: 5px;
+	color: #000;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav {
+	float:left;
+	list-style: none;
+	padding: 0 20px;
+	margin: 0;
+	font-size: 13px;
+	font-weight: bold;
+}
+ul.topnav li {
+	float: left;
+	margin: 0;
+	padding: 0 20px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a{
+	padding-top: 5px;
+	color: #000;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	box-shadow: 0 1px 0 0 #C6D1DE;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	height: 27px;
+	float: left;
+	width:10px;
+	margin-left: 5px;
+	background: url(images/dn.png) no-repeat center;
+}
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 26px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	z-index:10;
+	opacity: .7;
+	
+}
+ul.topnav li ul.subnav li{
+	font-weight: normal;
+	min-height: 20px;
+	font-size: 12px;
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	
+}
+html ul.topnav li ul.subnav li a {
+	float: right;
+	width: 145px;
+	padding-left: 10px;
+	color: #fff;
+	cursor:pointer;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	
+}
+
+#titles {
+	border-top:6px solid #234;
+	background: #000 url(images/wbg.gif)  ;
+	min-height: 50px;
+	font-size: 1.5em;
+	color: #000;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-top: -10px;
+	  	min-width:79%;
+}
+
+#top-ribbon {
+	min-width:920px;
+	height: 27px;
+	font-family: Arial;
+	background: #eee;
+	padding:0px 5px 0px 5px;
+	
+	}

@@ -1,0 +1,10 @@
+.vcchk {
+	background: green;
+}
+
+.vcuchk {
+	float:left;
+	padding: 4px;
+
+	background: #ddd;
+}

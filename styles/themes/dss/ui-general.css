@@ -1,0 +1,411 @@
+* {
+	font-family: Segoe UI, Tahoma;
+}
+html {
+	font-family:Segoe UI, Tahoma;
+}
+body {
+	margin: 0;
+	font-size:11px;
+}
+#leftnav {
+	position:absolute;
+	top:46px;
+	width:180px;
+	background: url(images/leftnav.png);
+	background-size:cover;
+	box-shadow: 0px 5px 14px 0px #111;
+}
+#content {
+	top:46px;
+	position:absolute;
+	left:180px;	
+}
+#contentlayout {
+	color: #000;
+	top:0;
+	clear:both;
+	background: rgb(254,248,190);
+	position:absolute;
+	left:220px;
+	opacity:.9;
+	height:100%;
+}
+
+ul.topnav {
+	float:left;
+	list-style: none;
+	padding: 0 0px 0 10px;
+	margin: 0;
+	font-size: 10.5px;
+	line-height:20px;
+	font-weight: bold;
+}
+ul.topnav li {
+	float: left;
+	margin: 0;
+	padding: 0 10px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.topnav li a {
+	padding-top: 5px;
+	color:rgb(55,96,146);
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover {
+	color:#003;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	height: 27px;
+	float: left;
+	width:10px;
+	margin-left: 5px;
+	background: url(images/dn.png) no-repeat center;
+}
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0;
+	top: 26px;
+	background: #333;
+	margin: 0;
+	padding: 0;
+	display: none;
+	float: left;
+	z-index:10;
+	opacity: .7;
+}
+ul.topnav li ul.subnav li {
+	font-weight: normal;
+	min-height: 20px;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+}
+html ul.topnav li ul.subnav li a {
+	float: right;
+	width: 145px;
+	padding-left: 10px;
+	color: #fff;
+	cursor:pointer;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+}
+
+#header {
+	background:#006 url(images/wbg.png);
+	background-size:100% 100%;
+	border-bottom:0.5px #fff solid;
+	height:45px;
+	font-size:30px;
+	color: #FFF;
+	position:relative;
+	box-shadow: 0px 1px 14px 0px #111;
+}
+#title{
+	padding-left:10px;	
+}
+.profile {
+	height:60px;
+	width:50px;
+	margin:5px;
+	box-shadow: 1px 1px 14px 0px #222;
+}
+.profilename {
+	color:#333;
+	font-size:18px;
+	margin-left:10px;
+}
+.profiletitle {
+	margin-left:10px;
+	font-style:italic;
+}
+.dashicon {
+	cursor:pointer;
+	background:url(images/app.png) no-repeat;
+	background-size:25px 25px;
+	float:left;
+	height:25px;
+	width:25px;
+	box-shadow: 2px 2px 4px 1px #888;
+}
+.dashicon1 {
+	cursor:pointer;
+	background:url(images/report.png) no-repeat;
+	background-size:30px 30px;
+	float:left;
+	height:30px;
+	border-radius:15px;
+	width:30px;
+	margin-bottom:5px;
+	box-shadow: 2px 1px 4px 1px #888;
+}
+.dashdesc {
+	clear:both;
+	margin-left:10px;
+	color:rgb(89,89,89);
+	line-height:15px;
+	font-style:italic;
+	margin-top:-5px;
+	font-size:14px;
+	font-weight:100;
+}
+.dashmenu {
+	margin:8px;
+	border-radius:5px;
+	box-shadow: 2px 1px 5px 1px #888;
+	background: #ddd;
+	height:23px;
+	border:solid 1px white;
+	background-size:cover;
+	cursor:pointer;
+	padding:5px 0px 0px 5px;
+}
+
+.dashmenuicon {
+	cursor:pointer;
+	float:left;
+	height:22px;
+	width:22px;
+	margin-left:3px;
+	box-shadow: 2px 1px 5px 1px #777;
+	margin-top:-4px;
+}
+.dashmenuicon1 {
+	cursor:pointer;
+	float:left;
+	height:23px;
+	width:25px;
+	border-radius:15px;
+	box-shadow: 2px 2px 5px 0px #777;
+	margin-top:-5px;
+}
+.dashmenuicon2 {
+	cursor:pointer;
+	margin-top:-5px;
+	float:left;
+	border-radius:15px;
+	height:23px;
+	width:25px;
+	box-shadow: 2px 2px 5px 0px #777
+}
+.dashmenulink {
+	color:rgb(55,96,146);
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+}
+.cell-inner {
+	padding-left:5px;
+	background:  transparent url(images/gradient3.png);
+	background-size:cover;
+	color:rgb(55,96,146);
+	font-size:11px;
+	font-weight:bold;
+	height:70px;
+	width:430px;
+	box-shadow: 2px 2px 10px 1px #888;
+}
+.modHeader {
+	clear:both;
+	color:rgb(55,96,146);
+	font-weight:bold;
+	font-size:14px;
+	position:relative;
+	margin-top:10px;
+	line-height:30px;
+	padding:10px;
+}
+.modDetail {
+	padding:5px;
+	background:   transparent url(images/gradient2.png);
+	background-size:100% 100%;
+	z-index:auto;
+}
+.modStat {
+	border:1px solid white;
+	height:280px;
+	background: transparent url(images/gradient.png);
+	background-size:100% 100%;
+	margin:10px AUTO;
+	border-radius:10px;
+	width:90%;
+	font-weight:bold;
+	font-size:11px;
+	box-shadow: 2px 1px 5px 1px #444;
+}
+.dssbox {
+	width:100%;
+	border: 1px solid #ccc;
+	height: 490px;
+	background: #fff;
+	border-radius: 5px;
+}
+.tb {
+	padding: 1px;
+	height: 22px;
+	width:100%;
+	border-bottom: 2px solid #ccc;
+	background:#eee;
+	border-radius: 5px;
+}
+.fbuttonadd {
+	font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	margin: 1px;
+	cursor: pointer;
+	background: url(images/add.png) no-repeat center left;
+}
+.fbuttonadd:hover {
+	height: 18px;
+	margin:0px;
+	font-size:12px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttons {
+	font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	background: url(images/drag-handle.png) no-repeat center left;
+}
+.fbuttons:hover {
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttonadd2 {
+	font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	cursor: pointer;
+	background: url(images/add.png) no-repeat center left;
+}
+.fbuttonadd2:hover {
+	height: 18px;
+	font-size:12px;
+	padding:1px 4px 1px 19px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttondel:hover {
+	height: 18px;
+	font-size:12px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttonsave:hover {
+	height: 18px;
+	font-size:12px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttondel {
+	font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	background: url(images/close.png) no-repeat center left;
+}
+.fbuttonsave {
+	font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	background: url(images/save_as.png) no-repeat center left;
+}
+.fbuttontab {
+	float:left;
+	font-weight:bold;
+	padding:0px 10px 0px 10px;
+	padding-right: 5px;
+	height: 18px;
+	font-size:12px;
+	cursor: pointer;
+}
+.fbuttontab:hover {
+	background-color: #ddd;
+	color: #fff;
+	box-shadow: 0px 3px 0px 0px #bbb;
+}
+.fbuttontabselected {
+	background-color: #bbb;
+	color: #fff;
+	border-radius: 4px;
+	box-shadow: 0px 5px 0px 0px #bbb;
+}
+/*
+CSS for CHAT
+	
+*/
+
+#chatbox {
+	height:300px;
+	width:160px;
+	background:#ddd;
+	position:absolute;
+	left:10px;
+
+	border-radius:5px;
+	box-shadow: 2px 1px 5px 1px #888;
+}
+#chatcontent {
+	height:120px;
+}
+#chatbox ul {
+	list-style:none;
+	padding: 0 5px;
+}	
+
+.online {
+	width: 40px;
+	height: 50px;	
+	box-shadow: 2px 1px 5px 1px #888;
+	border:green 1px solid;
+}
+.away {
+	width: 40px;
+	height: 50px;	
+	box-shadow: 2px 1px 5px 1px #888;
+	border:yellow 1px solid;
+}
+.busy {
+	width: 40px;
+	height: 50px;	
+	box-shadow: 2px 1px 5px 1px #888;
+	border:red 1px solid;
+}
+.offline {
+	width: 40px;
+	height: 50px;	
+	box-shadow: 2px 1px 5px 1px #888;
+	border:gray 1px solid;
+}
+#chatbox table td{
+	font-size:13px;
+	color:#333333;
+}

@@ -1,0 +1,37 @@
+   #hero-slider .mask { 
+	width:850px; 
+	height:540px; 
+	overflow:hidden;
+   }
+
+   #hero-slider .panel { 
+	width:730px; 
+	height:540px; 
+   }
+
+   #legend {
+	font-size:70%;
+	font-weight: bold;
+   }
+
+   #hero-slider .panel h2 {
+	color:#0058a9;
+   }
+ 
+   #hero-slider .panel p {
+	color:#666;
+   }
+
+   #hero-slider .clear {clear:both}
+
+   #hero-slider .hide {
+	display:none;
+   }
+
+	#slider , #slider li{
+		margin:0;
+		padding:0;
+		font-size:13px;
+		list-style:none;
+		}
+	

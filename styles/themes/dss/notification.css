@@ -1,0 +1,18 @@
+.noticebox {	
+	right:10;
+	display:none;
+	position:absolute;
+	bottom:10;
+	border:1px solid #aaa;
+	padding:6px;
+	color:white;
+	background: gray;
+	z-index:9999;
+	opacity:.95;
+	border-radius: 5px;
+}
+
+.noticebox div{
+	font-size:11px;
+	font-weight:bold;
+}

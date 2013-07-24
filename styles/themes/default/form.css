@@ -1,0 +1,91 @@
+.form { 
+	width:600px;
+	-moz-border-radius: 15px; /* Firefox */
+  	-webkit-border-radius: 15px; /* Safari and Chrome */
+ 	border-radius: 15px; 
+	border:solid 1px #aaa;
+	margin:5% auto;
+	padding:20px;
+	background: #FFF url(images/dove00.png) no-repeat;
+	background-position:  98% 10px;
+	box-shadow: 5px -10px 15px 2px #eee inset;
+	opacity:.9;
+	color:#000000;
+	filter:alpha(opacity=80);
+	behavior: url(ie-css3.htc);
+}
+.form a {
+	font-size:12px;
+}
+.form fieldset {
+  	border:none;
+	
+}   
+.form #legend {
+	font-size:18px;
+	margin:0px;
+	padding:10px 0px;
+	color:#0058a9; 
+	font-weight:bold;
+}
+.form legend {
+	font-size:18px;
+	margin:0px;
+	padding:10px 0px;
+	color:#0058a9; 
+	font-weight:bold;
+}
+.form label {
+	margin-left:5px;
+	font-size:12px;
+	width: 150px;
+	display:block;
+	color:#000;
+}
+.form input { 
+	width:300px;
+	border-radius: 5px;
+
+}
+.form .prev, .form .next, .form .finish { 
+	position:relative;
+	bottom: 2px;
+	background-color:#0058a9;
+	padding:5px 10px;
+	color:#fff;
+	text-decoration:none;
+}
+.form .prev:hover, .form .next:hover,.form .finish:hover {
+	cursor:pointer;
+	background-color:#000;
+	text-decoration:none;
+}
+.form .prev { 
+	float:left;
+}
+.form .next, 
+.form .finish { 
+	float:right;
+}
+
+.form .footer {
+	position:relative;
+	border-top:2px solid #aaa;list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px	
+}
+.form .header {
+	height: 80px;
+	top: 200%;
+	font-size:30px;
+	font-weight:bold;
+	color:rgb(55,96,146)
+}
+#steps, .form .header { border-bottom:2px solid #aaa;list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px;}
+#steps li {font-size:15px; float:left; padding:10px; color:#b0b1b3;}
+#steps li span {font-size:11px; display:block;}
+#steps li.current { color:#000;}
+.form .error{ 
+	font-size:10px;
+	font-style: italic;
+	color: #B16643;	
+}
+

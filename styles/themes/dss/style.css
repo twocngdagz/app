@@ -1,0 +1,185 @@
+
+	
+div#fileframe {
+	background-color: #F5F5F5 ;
+	float: left ;
+	display:none;
+	font-size: 10px;
+	width:30%;
+	border-top:1px solid;
+	border-right:1px solid;
+	height:150px;
+	}
+div#fileframe2 {
+	background-color: #F5F5F5 ;
+	font-size: 10px;
+	overflow-y: auto;
+	height:200px;
+	}
+div#contentframe {
+	background-color: #FFFFFF ;
+	background-image: url( "images/content_background.gif" ) ;
+	background-position: left top ;
+	background-repeat: repeat-y ;
+	float: left ; 
+	height: 78% ;
+	
+	width: 75% ;
+	}
+
+div.prev1 {
+	float:left;
+	width:15px;
+	height:16px;
+	border:solid 1px #444;
+	margin:2px;
+	background-image: url( "images/prev.gif" ) ;
+	background-position:  center center;
+	background-repeat: repeat-x ;
+	cursor:pointer;
+}
+input#address{
+	float:left;
+	padding:2px;
+	height:25px;
+	margin:2px;
+	width:90%;
+}
+div.next1 {
+	float:left;
+	width:16px;
+	border:solid 1px #444;
+	margin:2px;
+	background-image: url( "images/next.gif" ) ;
+	background-position:  center center;
+	background-repeat: repeat-x ;
+	cursor:pointer;
+}
+div.dirup {
+	float:left;
+	width:24px;
+	border:solid 1px #444;
+	margin:2px;
+	background-image: url( "images/folder-up.gif" ) ;
+	background-position:  center center;
+	background-repeat: no-repeat ;
+	cursor:pointer;
+}
+div.dirup {
+	float:left;
+	width:24px;
+	border:solid 1px #444;
+	margin:2px;
+	background-image: url( "images/folder-up.gif" ) ;
+	background-position:  center center;
+	background-repeat: no-repeat ;
+	cursor:pointer;
+}
+
+div#details {
+	float:right;
+	width:24px;
+	border:solid 1px #444;
+	margin:2px;
+	background-image: url( "images/details.png" ) ;
+	background-position:  center center;
+	background-repeat: no-repeat ;
+	cursor:pointer;
+}
+
+div#grid {
+	float:right;
+	width:24px;
+	border:solid 1px #444;
+	margin:2px;
+	background-image: url( "images/grid-view.png" ) ;
+	background-position:  center center;
+	background-repeat: no-repeat ;
+	cursor:pointer;
+	}
+
+
+div#filetree {	
+	font-size: 1.1em ;
+	line-height: 1.1em ;
+	padding: 10px 5px 10px 5px ;
+	}
+	
+div#filetree ul {
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	list-style-type: none ;	overflow-x: auto;
+	overflow-y: auto;
+	}
+	
+div#filetree ul ul {
+	
+	margin-left: 20px ;
+	}
+	
+div#filetree ul a {
+	background-color: #F5F5F5 ;
+	background-position: left 50% ;
+	background-repeat: no-repeat ;
+	border: 1px solid #F5F5F5 ;
+	color: #000000 ;
+	cursor:pointer;
+	display: block ;
+	margin: 0px 0px 2px 0px ;
+	padding: 3px 25px 3px 25px ;
+	text-decoration: none ;
+	}
+	
+div#filetree ul a.file {
+	background-image: url( "images/file.gif" ) ;
+	}
+	
+div#filetree ul a.dir {
+	background-image: url( "images/directory.png" ) ;
+	}
+div#filetree ul a.network {
+	background-image: url( "images/network.png" ) ;
+	}
+	
+div#filetree ul a.selecteddir {
+	background-color: #9CF;
+	border-color: #CAC193 ;
+	
+	}
+
+div#filetree ul a.mycomputer {
+	background-image: url( "images/mycomputer.png" ) ;	
+	
+}
+div#filetree ul a.library {
+	background-image: url( "images/library.png" ) ;	
+	
+}
+div#filetree ul a.favorites {
+	background-image: url( "images/fav2.png" ) ;	
+	
+}
+div#filetree ul a.desktop {
+	background-image: url( "images/desktop.png" ) ;	
+	
+}
+div#filetree ul a.library ul {
+	display:none;	
+}
+div#content {
+	padding: 10px 20px 10px 20px ;
+	}
+	
+
+div#footer p {
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+
+/* Hacks */
+
+* html div#filetree a {
+	height: 1px ;
+	}
+		

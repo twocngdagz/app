@@ -1,0 +1,95 @@
+/* style sheets */
+.ui-chatbox {
+    position: fixed;
+    bottom:0;
+    padding: 2px;
+    background:  #CCCCCC;
+	z-index:999;
+}
+
+.ui-chatbox-titlebar {
+    padding: 3px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.ui-chatbox-content {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.ui-chatbox-log {
+    padding: 3px;
+    max-height: 250px;
+    min-height: 250px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background: #FFFFFF;
+}
+
+.ui-chatbox-input {
+    padding: 3px;
+    border-top: 1px solid grey;
+    overflow: hidden;
+}
+
+.ui-chatbox-input-box {
+    margin: 5px;
+    border: 2px solid lightgrey;/* #6699FF */
+    padding: 2px;
+    min-height: 20px;
+	overflow:hidden;
+	width:220px;
+	resize:none;
+}
+
+.ui-chatbox-icon {
+    float: right;
+}
+
+.ui-chatbox-input-focus {
+    border-color: #6699FF;
+}
+
+.ui-chatbox-msg {
+   
+    float: left;
+    clear: both;
+	border-bottom:#ddd 1px solid;
+	width:100%;
+	padding:2px;
+    /* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+}
+
+.bubble {
+	white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+	font-size:12px;
+	margin-top:-15px;
+		
+}
+
+.ui-chatbox-msg table td span{
+	
+	color:#222;
+	float:right;font-size:10px;
+	margin-top:5px;
+	background:#fff;
+}
+
+.chatboxpic{
+	width:30px;
+	height:30px;
+	float:left;
+	position:relative;
+	background-size:cover !important;
+}

@@ -1,0 +1,178 @@
+.dssbox {
+	width:100%;
+	border: 1px solid #ccc;
+	height: 490px;
+	background: #fff;
+	border-radius: 5px;
+}
+.tb {
+	padding: 1px;
+	height: 22px;
+	width:100%;
+	border-bottom: 2px solid #ccc;
+	background:#eee;
+	border-radius: 5px;
+}
+.fbuttonadd {
+	font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	background: url(images/add.png) no-repeat center left;
+}
+.fbuttonadd:hover {
+	height: 18px;
+	font-size:12px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttons {
+	font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	background: url(images/drag-handle.png) no-repeat center left;
+}
+.fbuttons:hover {
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttonadd2 {
+	font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	
+	cursor: pointer;
+	background: url(images/add.png) no-repeat center left;
+}
+.fbuttonadd2:hover {
+	height: 18px;
+	font-size:12px;
+	padding:1px 4px 1px 19px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttondel:hover {
+	height: 18px;
+	font-size:12px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttonsave:hover {
+	height: 18px;
+	font-size:12px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.fbuttondel {
+		font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	background: url(images/close.png) no-repeat center left;
+}
+.fbuttonsave {
+	font-weight:bold;
+	padding:2px 5px 2px 20px;
+	margin:5px;
+	height: 18px;
+	color: #000;
+	font-size:12px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	background: url(images/save_as.png) no-repeat center left;
+}
+
+.fbuttontab {
+	float:left;
+	font-weight:bold;
+	padding:0px 10px 0px 10px;
+	padding-right: 5px;
+	height: 18px;
+	font-size:12px;
+	cursor: pointer;
+}
+.fbuttontab:hover {
+	background-color: #ddd;
+	color: #fff;
+	box-shadow: 0px 3px 0px 0px #bbb;
+}
+.fbuttontabselected {
+	background-color: #bbb;
+	color: #fff;
+	border-radius: 4px;
+	box-shadow: 0px 5px 0px 0px #bbb;
+}
+#hero-slider .mask {
+	float:left;
+	width:100%;
+	height:560px;
+	overflow:hidden;
+}
+.panel button {
+	border-radius: 3px;
+}
+#hero-slider .panel {
+	width:100%;
+	height:550px;
+	text-align:left;
+}
+#legend {
+	font-size:70%;
+	font-weight: bold;
+}
+.panel h2 {
+	color:#0058a9;
+}
+.panel p {
+	color:#666;
+}
+.clear {
+	clear:both
+}
+.invalid {
+	background:red
+}
+.dentry {
+	border-radius: 5px;
+}
+.form table input {
+	border-left:2px solid brown;
+}
+.form table textarea, .form table option, .form table select, .form table input {
+	font-family:Verdana, Arial, sans-serif;
+	font-size:12px;
+	line-height:140%;
+	color:#333;
+	padding:0px;
+	border:1px solid #999;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	font-size:12px;
+	width: 350px;
+	min-height: 19px;
+}
+.error {
+	color:red;
+	font-size:10px;
+}
+.show {
+	display:inline;
+}
